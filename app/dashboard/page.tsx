@@ -4,7 +4,7 @@ import { buttonVariants } from '@/components/ui/button'
 import { prisma } from '../utils/db'
 import { getKindeServerSession } from '@kinde-oss/kinde-auth-nextjs/server'
 import BlogPostCard from '@/components/general/BlogpostCard'
-import { resolve } from 'path'
+
 
 async function getData(userId: string) {
     // await new Promise((resolve) => setTimeout(resolve, 2000));
